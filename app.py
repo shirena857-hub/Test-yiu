@@ -63,7 +63,7 @@ async def get_tokens_live():
 # ---------------------------
 def get_url(server_name):
     if server_name == "BD":
-        return "https://clientbp.ggwhitehawk.com/GetPlayerPersonalShow"
+        return "https://clientbp.ggpolarbear.com/GetPlayerPersonalShow"
     elif server_name in {"BR", "US", "SAC", "NA"}:
         return "https://client.us.freefiremobile.com/GetPlayerPersonalShow"
     else:
